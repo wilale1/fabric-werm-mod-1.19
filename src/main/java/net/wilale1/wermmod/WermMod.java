@@ -1,6 +1,7 @@
 package net.wilale1.wermmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.wilale1.wermmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,5 +11,8 @@ public class WermMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
+
 	}
 }

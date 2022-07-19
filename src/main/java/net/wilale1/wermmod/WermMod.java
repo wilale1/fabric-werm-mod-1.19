@@ -1,6 +1,7 @@
 package net.wilale1.wermmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.wilale1.wermmod.block.ModBlocks;
 import net.wilale1.wermmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,6 @@ public class WermMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }

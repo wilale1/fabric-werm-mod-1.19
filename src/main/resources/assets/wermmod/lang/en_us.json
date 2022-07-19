@@ -9,5 +9,7 @@
   "block.wermmod.deepslate_uranium_ore": "Deepslate Uranium Ore",
   "block.wermmod.tomacco_crop": "Eggplant Crop",
 
-  "itemGroup.wermmod.wermitems": "Werm Items Tab"
+  "itemGroup.wermmod.wermitems": "Werm Items Tab",
+
+  "entity.minecraft.villager.safetyinspector": "Safety Inspector"
 }

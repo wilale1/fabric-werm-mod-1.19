@@ -3,6 +3,8 @@ package net.wilale1.wermmod;
 import net.fabricmc.api.ModInitializer;
 import net.wilale1.wermmod.block.ModBlocks;
 import net.wilale1.wermmod.item.ModItems;
+import net.wilale1.wermmod.painting.ModPaintings;
+import net.wilale1.wermmod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +17,10 @@ public class WermMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModVillagers.registerVillagers();
+		ModVillagers.registerTrades();
+
+		ModPaintings.registerPaintings();
 	}
 }

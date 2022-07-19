@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wermmod:item/platinum"
+    "layer0": "wermmod:item/uranium"
   }
 }

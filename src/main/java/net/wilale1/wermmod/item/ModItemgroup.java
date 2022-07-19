@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 import net.wilale1.wermmod.WermMod;
 
 public class ModItemgroup {
-    public static final ItemGroup WERM_ITEMS = FabricItemGroupBuilder.build(new Identifier(WermMod.MOD_ID, "wermitems"), () -> new ItemStack(ModItems.PLATINUM));
+    public static final ItemGroup WERM_ITEMS = FabricItemGroupBuilder.build(new Identifier(WermMod.MOD_ID, "wermitems"), () -> new ItemStack(ModItems.URANIUM));
 }

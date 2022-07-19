@@ -8,10 +8,12 @@ import net.wilale1.wermmod.WermMod;
 
 public class ModItems {
 
-    public static final Item RAW_PLATINUM = registerItem("raw_platinum",
+    // Adds Uranium and Raw Uranium as items
+
+    public static final Item RAW_URANIUM = registerItem("raw_uranium",
             new Item(new FabricItemSettings().group(ModItemgroup.WERM_ITEMS)));
 
-    public static final Item PLATINUM = registerItem("platinum",
+    public static final Item URANIUM = registerItem("uranium",
             new Item(new FabricItemSettings().group(ModItemgroup.WERM_ITEMS)));
 
     private static Item registerItem(String name, Item item) {

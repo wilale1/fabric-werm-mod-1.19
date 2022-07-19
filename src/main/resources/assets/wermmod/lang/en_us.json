@@ -1,10 +1,13 @@
 {
   "item.wermmod.raw_uranium": "Raw Uranium",
   "item.wermmod.uranium": "Uranium",
+  "item.wermmod.tomacco": "Tomacco",
+  "item.wermmod.tomacco_seeds": "Tomacco Seeds",
 
   "block.wermmod.uranium_block": "Block of Uranium",
   "block.wermmod.uranium_ore": "Uranium Ore",
   "block.wermmod.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "block.wermmod.tomacco_crop": "Eggplant Crop",
 
   "itemGroup.wermmod.wermitems": "Werm Items Tab"
 }

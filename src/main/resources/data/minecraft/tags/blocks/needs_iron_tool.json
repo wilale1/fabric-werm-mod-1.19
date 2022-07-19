@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wermmod:uranium_block",
+    "wermmod:uranium_ore",
+    "wermmod:deepslate_uranium_ore"
+  ]
+}

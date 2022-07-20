@@ -21,10 +21,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemgroup.WERM_ITEMS);
 
     public static final Block URANIUM_ORE = registerBlock("uranium_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().luminance(1), UniformIntProvider.create(3, 7)), ModItemgroup.WERM_ITEMS);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemgroup.WERM_ITEMS);
 
     public static final Block DEEPSLATE_URANIUM_ORE = registerBlock("deepslate_uranium_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().luminance(1), UniformIntProvider.create(3, 7)), ModItemgroup.WERM_ITEMS);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemgroup.WERM_ITEMS);
+
+    public static final Block ENDSTONE_URANIUM_ORE = registerBlock("endstone_uranium_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemgroup.WERM_ITEMS);
 
     public static final Block TOMACCO_CROP = registerBlockWithoutItem("tomacco_crop",
             new TomaccoCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));

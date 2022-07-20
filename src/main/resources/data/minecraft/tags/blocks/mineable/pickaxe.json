@@ -3,6 +3,7 @@
   "values": [
     "wermmod:uranium_block",
     "wermmod:uranium_ore",
-    "wermmod:deepslate_uranium_ore"
+    "wermmod:deepslate_uranium_ore",
+    "wermmod:endstone_uranium_ore"
   ]
 }
